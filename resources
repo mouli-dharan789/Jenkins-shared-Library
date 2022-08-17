@@ -1,2 +1,0 @@
-writeFile file: 'tempFile.ps1', text: "${libraryResource 'psScript1.ps1'}"
-powershell './tempFile.ps1 -yourParam $yourParam'
